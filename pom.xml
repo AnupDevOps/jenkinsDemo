@@ -51,6 +51,10 @@
         <jacoco-listeners.version>3.5</jacoco-listeners.version>
 
     </properties>
+	
+	<properties>
+    <failOnMissingWebXml>false</failOnMissingWebXml>   
+</properties>
 
     <dependencyManagement>
         <!-- Import the maven Spring IO Platform Bill Of Materials (BOM) -->
